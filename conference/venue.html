@@ -24,15 +24,32 @@
             .nav .nav-link{
                 color:white;
             }
-            .wrap{
+            .wrap,.wrap1{
                 background-color:#627894;
             }
+            .wrap1{
+                position: relative;
+                width:100%;
+                padding-top: 56.25%;
+                padding-top: 25px;
+                min-height:300px;
+            }
+            .wrap .responsive_iframe{
+            position: absolute;
+            width:100%;
+            height: 100%;
+            top:0;
+            left:0;
+            overflow: hidden;
+            }
+
             .wrap h3{
                 color:turquoise;
             }
            .wrap h4{
             color:tan;
            }
+           
         </style>
     </head>
     <body>
@@ -56,9 +73,9 @@
             </div>
             <div class="wrap text-center">
                 <h4>emirates palace, <br> Abudhabi</h4>
-                <p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14526.74786878194!2d54.3172833!3d24.4616436!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x634ef65bd7bd41c8!2sEmirates%20Palace!5e0!3m2!1sen!2sae!4v1635776815839!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </p>
+                <div class="wrap1">
+                    <iframe class="responsive_iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14526.74786878194!2d54.3172833!3d24.4616436!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x634ef65bd7bd41c8!2sEmirates%20Palace!5e0!3m2!1sen!2sae!4v1635776815839!5m2!1sen!2sae" height= 400 style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
             </div>
             <footer>
                 <div>
